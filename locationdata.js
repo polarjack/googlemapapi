@@ -1,11 +1,13 @@
 eqfeed_callback({
+    
     "type": "FeatureCollection",
     "features": [{
         "type": "Feature",
         "properties": {
             "location": "雲林縣斗南鎮",
             "time": "106.01.04",
-            "mount": 23863
+            "mount": 23863,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -17,7 +19,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣麥寮鄉",
             "time": "106.01.08",
-            "mount": 2672
+            "mount": 2672,
+            "type": "皇金雞"
         },
         "geometry": {
             "type": "Point",
@@ -29,7 +32,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣臺西鄉",
             "time": "106.01.10",
-            "mount": 33
+            "mount": 33,
+            "type": "烏骨雞"
         },
         "geometry": {
             "type": "Point",
@@ -41,7 +45,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣元長鄉",
             "time": "106.01.12",
-            "mount": 16801
+            "mount": 16801,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -53,7 +58,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣麥寮鄉",
             "time": "106.01.14",
-            "mount": 16632
+            "mount": 16632,
+            "type": "紅羽土雞及 皇金雞"
         },
         "geometry": {
             "type": "Point",
@@ -65,7 +71,8 @@ eqfeed_callback({
         "properties": {
             "location": "宜蘭縣礁溪鄉",
             "time": "106.01.15",
-            "mount": 3815
+            "mount": 3815,
+            "type": "北京種鴨"
         },
         "geometry": {
             "type": "Point",
@@ -77,7 +84,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣東勢鄉",
             "time": "106.01.17",
-            "mount": 19303
+            "mount": 19303,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -89,7 +97,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣崙背鄉",
             "time": "106.01.17",
-            "mount": 10729
+            "mount": 10729,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -101,7 +110,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣褒忠鄉",
             "time": "106.01.19",
-            "mount": 1000
+            "mount": 1000,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -113,7 +123,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣四湖鄉",
             "time": "106.01.25",
-            "mount": 1129
+            "mount": 1129,
+            "type": "火雞"
         },
         "geometry": {
             "type": "Point",
@@ -125,7 +136,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣虎尾鎮",
             "time": "106.02.04",
-            "mount": 2343
+            "mount": 2343,
+            "type": "火雞"
         },
         "geometry": {
             "type": "Point",
@@ -137,7 +149,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.02.05",
-            "mount": 7460
+            "mount": 7460,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -149,7 +162,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣麥寮鄉",
             "time": "106.02.06",
-            "mount": 22014
+            "mount": 22014,
+            "type": "紅羽土雞及 皇金雞"
         },
         "geometry": {
             "type": "Point",
@@ -160,7 +174,8 @@ eqfeed_callback({
         "type": "Feature",
         "properties": {
             "location": "臺南市六甲區",
-            "mount": 0
+            "mount": 0,
+            "type": "火雞"
         },
         "geometry": {
             "type": "Point",
@@ -172,7 +187,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.02.13",
-            "mount": 3983
+            "mount": 3983,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -184,7 +200,8 @@ eqfeed_callback({
         "properties": {
             "location": "花蓮縣玉里鎮",
             "time": "106.02.14",
-            "mount": 2686
+            "mount": 2686,
+            "type": "鴨"
         },
         "geometry": {
             "type": "Point",
@@ -196,7 +213,8 @@ eqfeed_callback({
         "properties": {
             "location": "嘉義縣朴子市",
             "time": "106.02.15",
-            "mount": 827
+            "mount": 827,
+            "type": "烏骨雞"
         },
         "geometry": {
             "type": "Point",
@@ -208,7 +226,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣東勢鄉",
             "time": "106.02.15",
-            "mount": 0
+            "mount": 0,
+            "type": "皇金雞"
         },
         "geometry": {
             "type": "Point",
@@ -220,7 +239,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣口湖鄉",
             "time": "106.02.16",
-            "mount": 234
+            "mount": 234,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -232,7 +252,8 @@ eqfeed_callback({
         "properties": {
             "location": "嘉義縣朴子市",
             "time": "106.02.15",
-            "mount": 40
+            "mount": 40,
+            "type": "烏骨雞"
         },
         "geometry": {
             "type": "Point",
@@ -244,7 +265,8 @@ eqfeed_callback({
         "properties": {
             "location": "嘉義縣朴子市",
             "time": "106.02.15",
-            "mount": 18
+            "mount": 18,
+            "type": "烏骨雞"
         },
         "geometry": {
             "type": "Point",
@@ -256,7 +278,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣口湖鄉",
             "time": "106.02.17",
-            "mount": 3540
+            "mount": 3540,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -268,7 +291,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣水林鄉",
             "time": "106.02.18",
-            "mount": 23500
+            "mount": 23500,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -280,7 +304,8 @@ eqfeed_callback({
         "properties": {
             "location": "嘉義縣東石鄉",
             "time": "106.02.18",
-            "mount": 610
+            "mount": 610,
+            "type": "鵝"
         },
         "geometry": {
             "type": "Point",
@@ -292,7 +317,8 @@ eqfeed_callback({
         "properties": {
             "location": "嘉義縣東石鄉",
             "time": "106.02.18",
-            "mount": 24
+            "mount": 24,
+            "type": "鵝"
         },
         "geometry": {
             "type": "Point",
@@ -304,7 +330,8 @@ eqfeed_callback({
         "properties": {
             "location": "臺南市下營區",
             "time": "106.02.18",
-            "mount": 2388
+            "mount": 2388,
+            "type": "火雞"
         },
         "geometry": {
             "type": "Point",
@@ -316,7 +343,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣東勢鄉",
             "time": "106.02.19",
-            "mount": 15270
+            "mount": 15270,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -328,7 +356,8 @@ eqfeed_callback({
         "properties": {
             "location": "臺南市下營區",
             "time": "106.02.19",
-            "mount": 7782
+            "mount": 7782,
+            "type": "蛋雞"
         },
         "geometry": {
             "type": "Point",
@@ -340,7 +369,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣水林鄉",
             "time": "106.02.20",
-            "mount": 28469
+            "mount": 28469,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -352,7 +382,8 @@ eqfeed_callback({
         "properties": {
             "location": "臺南市善化區",
             "time": "106.02.19",
-            "mount": 7885
+            "mount": 7885,
+            "type": "蛋種雞"
         },
         "geometry": {
             "type": "Point",
@@ -364,7 +395,8 @@ eqfeed_callback({
         "properties": {
             "location": "彰化縣芳苑鄉",
             "time": "106.02.21",
-            "mount": 18424
+            "mount": 18424,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -376,7 +408,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣西螺鎮",
             "time": "106.02.21",
-            "mount": 25490
+            "mount": 25490,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -388,7 +421,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.02.22",
-            "mount": 12446
+            "mount": 12446,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -400,7 +434,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.02.23",
-            "mount": 15586
+            "mount": 15586,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -412,7 +447,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣麥寮鄉",
             "time": "106.02.24",
-            "mount": 9117
+            "mount": 9117,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -424,7 +460,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣麥寮鄉",
             "time": "106.02.24",
-            "mount": 6040
+            "mount": 6040,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -436,7 +473,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣斗南鎮",
             "time": "106.02.24",
-            "mount": 680
+            "mount": 680,
+            "type": "種鵝"
         },
         "geometry": {
             "type": "Point",
@@ -448,7 +486,8 @@ eqfeed_callback({
         "properties": {
             "location": "花蓮縣鳳林鎮",
             "time": "106.02.25",
-            "mount": 5960
+            "mount": 5960,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -460,7 +499,8 @@ eqfeed_callback({
         "properties": {
             "location": "花蓮縣鳳林鎮",
             "time": "106.02.25",
-            "mount": 5155
+            "mount": 5155,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -472,7 +512,8 @@ eqfeed_callback({
         "properties": {
             "location": "嘉義縣布袋鎮",
             "time": "106.02.23",
-            "mount": 3366
+            "mount": 3366,
+            "type": "鵝"
         },
         "geometry": {
             "type": "Point",
@@ -484,7 +525,8 @@ eqfeed_callback({
         "properties": {
             "location": "宜蘭縣三星鄉",
             "time": "106.02.24",
-            "mount": 5265
+            "mount": 5265,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -496,7 +538,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.02.25",
-            "mount": 15101
+            "mount": 15101,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -508,7 +551,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.02.25",
-            "mount": 5418
+            "mount": 5418,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -520,7 +564,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣麥寮鄉",
             "time": "106.02.26",
-            "mount": 7816
+            "mount": 7816,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -532,7 +577,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣四湖鄉",
             "time": "106.02.26",
-            "mount": 6389
+            "mount": 6389,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -544,7 +590,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣四湖鄉",
             "time": "106.02.26",
-            "mount": 17
+            "mount": 17,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -556,7 +603,8 @@ eqfeed_callback({
         "properties": {
             "location": "嘉義縣民雄鄉",
             "time": "106.02.26",
-            "mount": 498
+            "mount": 498,
+            "type": "火雞"
         },
         "geometry": {
             "type": "Point",
@@ -568,7 +616,8 @@ eqfeed_callback({
         "properties": {
             "location": "花蓮縣壽豐鄉",
             "time": "106.02.26",
-            "mount": 5098
+            "mount": 5098,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -580,7 +629,8 @@ eqfeed_callback({
         "properties": {
             "location": "臺南市後壁區",
             "time": "106.02.26",
-            "mount": 24586
+            "mount": 24586,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -592,7 +642,8 @@ eqfeed_callback({
         "properties": {
             "location": "彰化縣芳苑鄉",
             "time": "106.02.27",
-            "mount": 887
+            "mount": 887,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -604,7 +655,8 @@ eqfeed_callback({
         "properties": {
             "location": "屏東縣竹田鄉",
             "time": "106.02.27",
-            "mount": 2255
+            "mount": 2255,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -616,7 +668,8 @@ eqfeed_callback({
         "properties": {
             "location": "宜蘭縣三星鄉",
             "time": "106.02.27",
-            "mount": 5255
+            "mount": 5255,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -628,7 +681,8 @@ eqfeed_callback({
         "properties": {
             "location": "高雄市杉林區",
             "time": "106.02.27",
-            "mount": 5613
+            "mount": 5613,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -640,7 +694,8 @@ eqfeed_callback({
         "properties": {
             "location": "彰化縣大城鄉",
             "time": "106.02.28",
-            "mount": 888
+            "mount": 888,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -652,7 +707,8 @@ eqfeed_callback({
         "properties": {
             "location": "彰化縣大城鄉",
             "time": "106.03.01",
-            "mount": 1027
+            "mount": 1027,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -664,7 +720,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.02.28",
-            "mount": 10646
+            "mount": 10646,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -676,7 +733,8 @@ eqfeed_callback({
         "properties": {
             "location": "臺南市下營區",
             "time": "106.02.28",
-            "mount": 16660
+            "mount": 16660,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -688,7 +746,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.03.03",
-            "mount": 2907
+            "mount": 2907,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -700,7 +759,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣四湖鄉",
             "time": "106.03.03",
-            "mount": 5316
+            "mount": 5316,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -712,7 +772,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣口湖鄉",
             "time": "106.03.01",
-            "mount": 1094
+            "mount": 1094,
+            "type": "鵝"
         },
         "geometry": {
             "type": "Point",
@@ -724,7 +785,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.03.02",
-            "mount": 29554
+            "mount": 29554,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -736,7 +798,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.03.02",
-            "mount": 5111
+            "mount": 5111,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -748,7 +811,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣水林鄉",
             "time": "106.03.04",
-            "mount": 16878
+            "mount": 16878,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -760,7 +824,8 @@ eqfeed_callback({
         "properties": {
             "location": "臺南市關廟區",
             "time": "106.03.02",
-            "mount": 20085
+            "mount": 20085,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -772,7 +837,8 @@ eqfeed_callback({
         "properties": {
             "location": "彰化縣大城鄉",
             "time": "106.03.04",
-            "mount": 1530
+            "mount": 1530,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -784,7 +850,8 @@ eqfeed_callback({
         "properties": {
             "location": "彰化縣大城鄉",
             "time": "106.03.04",
-            "mount": 476
+            "mount": 476,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -796,7 +863,8 @@ eqfeed_callback({
         "properties": {
             "location": "宜蘭縣三星鄉",
             "time": "106.03.04",
-            "mount": 11192
+            "mount": 11192,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -808,7 +876,8 @@ eqfeed_callback({
         "properties": {
             "location": "屏東縣枋寮鄉",
             "time": "106.03.04",
-            "mount": 1456
+            "mount": 1456,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -820,7 +889,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣口湖鄉",
             "time": "106.03.05",
-            "mount": 25348
+            "mount": 25348,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -832,7 +902,8 @@ eqfeed_callback({
         "properties": {
             "location": "宜蘭縣三星鄉",
             "time": "106.03.05",
-            "mount": 5380
+            "mount": 5380,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -844,7 +915,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣斗南鎮",
             "time": "106.03.06",
-            "mount": 597
+            "mount": 597,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -856,7 +928,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣麥寮鄉",
             "time": "106.03.06",
-            "mount": 453
+            "mount": 453,
+            "type": "肉鵝"
         },
         "geometry": {
             "type": "Point",
@@ -868,7 +941,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣麥寮鄉",
             "time": "106.03.06",
-            "mount": 10787
+            "mount": 10787,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -880,7 +954,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.03.07",
-            "mount": 15941
+            "mount": 15941,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -892,7 +967,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣林內鄉",
             "time": "106.03.09",
-            "mount": 16408
+            "mount": 16408,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -904,7 +980,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣莿桐鄉",
             "time": "106.03.11",
-            "mount": 15418
+            "mount": 15418,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -916,7 +993,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.03.07",
-            "mount": 4656
+            "mount": 4656,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -928,7 +1006,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣東勢鄉",
             "time": "106.03.08",
-            "mount": 4719
+            "mount": 4719,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -940,7 +1019,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.03.08",
-            "mount": 19303
+            "mount": 19303,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -952,7 +1032,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.03.10",
-            "mount": 38712
+            "mount": 38712,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -964,7 +1045,8 @@ eqfeed_callback({
         "properties": {
             "location": "臺南市下營區",
             "time": "106.03.08",
-            "mount": 1000
+            "mount": 1000,
+            "type": "肉鵝"
         },
         "geometry": {
             "type": "Point",
@@ -976,7 +1058,8 @@ eqfeed_callback({
         "properties": {
             "location": "臺南市下營區",
             "time": "106.03.08",
-            "mount": 727
+            "mount": 727,
+            "type": "肉鵝"
         },
         "geometry": {
             "type": "Point",
@@ -988,7 +1071,8 @@ eqfeed_callback({
         "properties": {
             "location": "宜蘭縣三星鄉",
             "time": "106.03.10",
-            "mount": 9650
+            "mount": 9650,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -1000,7 +1084,8 @@ eqfeed_callback({
         "properties": {
             "location": "高雄市路竹區",
             "time": "106.03.09",
-            "mount": 8342
+            "mount": 8342,
+            "type": "蛋中雞"
         },
         "geometry": {
             "type": "Point",
@@ -1012,7 +1097,8 @@ eqfeed_callback({
         "properties": {
             "location": "花蓮縣玉里鎮",
             "time": "103.03.09",
-            "mount": 14647
+            "mount": 14647,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -1024,7 +1110,8 @@ eqfeed_callback({
         "properties": {
             "location": "屏東縣竹田鄉",
             "time": "106.03.11",
-            "mount": 1896
+            "mount": 1896,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -1036,7 +1123,8 @@ eqfeed_callback({
         "properties": {
             "location": "屏東縣九如鄉",
             "time": "106.03.11",
-            "mount": 9423
+            "mount": 9423,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -1048,7 +1136,8 @@ eqfeed_callback({
         "properties": {
             "location": "桃園市新屋區",
             "time": "106.03.09",
-            "mount": 18
+            "mount": 18,
+            "type": "鵝"
         },
         "geometry": {
             "type": "Point",
@@ -1060,7 +1149,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣莿桐鄉",
             "time": "106.03.16",
-            "mount": 10489
+            "mount": 10489,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1072,7 +1162,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.03.15",
-            "mount": 14767
+            "mount": 14767,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1084,7 +1175,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣古坑鄉",
             "time": "106.03.16",
-            "mount": 33256
+            "mount": 33256,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1096,7 +1188,8 @@ eqfeed_callback({
         "properties": {
             "location": "彰化縣芳苑鄉",
             "time": "106.03.16",
-            "mount": 1277
+            "mount": 1277,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -1108,7 +1201,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣麥寮鄉",
             "time": "106.03.17",
-            "mount": 13352
+            "mount": 13352,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1120,7 +1214,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣東勢鄉",
             "time": "106.03.17",
-            "mount": 9569
+            "mount": 9569,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1132,7 +1227,8 @@ eqfeed_callback({
         "properties": {
             "location": "高雄市旗山區",
             "time": "106.03.18",
-            "mount": 4457
+            "mount": 4457,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -1144,7 +1240,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣口湖鄉",
             "time": "106.03.18",
-            "mount": 16661
+            "mount": 16661,
+            "type": "皇金雞"
         },
         "geometry": {
             "type": "Point",
@@ -1156,7 +1253,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣四湖鄉",
             "time": "106.03.19",
-            "mount": 7734
+            "mount": 7734,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1168,7 +1266,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣四湖鄉",
             "time": "106.03.19",
-            "mount": 44754
+            "mount": 44754,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1180,7 +1279,8 @@ eqfeed_callback({
         "properties": {
             "location": "屏東縣九如鄉",
             "time": "106.03.19",
-            "mount": 23150
+            "mount": 23150,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1192,7 +1292,8 @@ eqfeed_callback({
         "properties": {
             "location": "彰化縣大城鄉",
             "time": "106.03.20",
-            "mount": 1542
+            "mount": 1542,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -1204,7 +1305,8 @@ eqfeed_callback({
         "properties": {
             "location": "屏東縣鹽埔鄉",
             "time": "106.03.21",
-            "mount": 10014
+            "mount": 10014,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -1216,7 +1318,8 @@ eqfeed_callback({
         "properties": {
             "location": "臺南市學甲區",
             "time": "106.03.21",
-            "mount": 2011
+            "mount": 2011,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -1228,7 +1331,8 @@ eqfeed_callback({
         "properties": {
             "location": "臺南市學甲區",
             "time": "106.03.21",
-            "mount": 1958
+            "mount": 1958,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -1240,7 +1344,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣四湖鄉",
             "time": "106.03.22",
-            "mount": 28364
+            "mount": 28364,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1252,7 +1357,8 @@ eqfeed_callback({
         "properties": {
             "location": "嘉義縣六腳鄉",
             "time": "106.03.22",
-            "mount": 116
+            "mount": 116,
+            "type": "古早雞"
         },
         "geometry": {
             "type": "Point",
@@ -1264,7 +1370,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣褒忠鄉",
             "time": "106.03.24",
-            "mount": 9714
+            "mount": 9714,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1276,7 +1383,8 @@ eqfeed_callback({
         "properties": {
             "location": "屏東縣九如鄉",
             "time": "106.03.25",
-            "mount": 6189
+            "mount": 6189,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -1288,7 +1396,8 @@ eqfeed_callback({
         "properties": {
             "location": "臺南市關廟區",
             "time": "106.03.25",
-            "mount": 8239
+            "mount": 8239,
+            "type": "古早雞"
         },
         "geometry": {
             "type": "Point",
@@ -1300,7 +1409,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣東勢鄉",
             "time": "106.03.27",
-            "mount": 8349
+            "mount": 8349,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1312,7 +1422,8 @@ eqfeed_callback({
         "properties": {
             "location": "嘉義縣六腳鄉",
             "time": "106.03.27",
-            "mount": 13349
+            "mount": 13349,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1324,7 +1435,8 @@ eqfeed_callback({
         "properties": {
             "location": "嘉義縣中埔鄉",
             "time": "106.03.28",
-            "mount": 8535
+            "mount": 8535,
+            "type": "古早雞"
         },
         "geometry": {
             "type": "Point",
@@ -1336,7 +1448,8 @@ eqfeed_callback({
         "properties": {
             "location": "彰化縣二林鎮",
             "time": "106.03.30",
-            "mount": 16989
+            "mount": 16989,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1348,7 +1461,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣台西鄉",
             "time": "106.04.01",
-            "mount": 30561
+            "mount": 30561,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1360,7 +1474,8 @@ eqfeed_callback({
         "properties": {
             "location": "臺南市下營區",
             "time": "106.04.03",
-            "mount": 5287
+            "mount": 5287,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -1372,7 +1487,8 @@ eqfeed_callback({
         "properties": {
             "location": "南投縣竹山鎮",
             "time": "106.04.03",
-            "mount": 3827
+            "mount": 3827,
+            "type": "肉鴨"
         },
         "geometry": {
             "type": "Point",
@@ -1384,7 +1500,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣水林鄉",
             "time": "106.04.03",
-            "mount": 16300
+            "mount": 16300,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1396,7 +1513,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣莿桐鄉",
             "time": "106.04.04",
-            "mount": 1895
+            "mount": 1895,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1408,7 +1526,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣斗六市",
             "time": "106.04.05",
-            "mount": 48808
+            "mount": 48808,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1420,7 +1539,8 @@ eqfeed_callback({
         "properties": {
             "location": "嘉義縣朴子市",
             "time": "106.04.06",
-            "mount": 24422
+            "mount": 24422,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1432,7 +1552,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣臺西鄉",
             "time": "106.04.06",
-            "mount": 28443
+            "mount": 28443,
+            "type": "紅羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1444,7 +1565,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣東勢鄉",
             "time": "106.04.08",
-            "mount": 11399
+            "mount": 11399,
+            "type": "黑羽及紅羽 土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1456,7 +1578,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣東勢鄉",
             "time": "106.04.08",
-            "mount": 10247
+            "mount": 10247,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1468,7 +1591,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣東勢鄉",
             "time": "106.04.09",
-            "mount": 10277
+            "mount": 10277,
+            "type": "黑羽土雞"
         },
         "geometry": {
             "type": "Point",
@@ -1480,7 +1604,8 @@ eqfeed_callback({
         "properties": {
             "location": "嘉義縣大林鎮",
             "time": "106.04.09",
-            "mount": 2405
+            "mount": 2405,
+            "type": "肉鵝"
         },
         "geometry": {
             "type": "Point",
@@ -1492,7 +1617,8 @@ eqfeed_callback({
         "properties": {
             "location": "雲林縣東勢鄉",
             "time": "106.04.17",
-            "mount": 5566
+            "mount": 5566,
+            "type": "紅羽土雞及 皇金雞"
         },
         "geometry": {
             "type": "Point",

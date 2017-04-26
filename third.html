@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+
+        #info-box {
+            background-color: white;
+            border: 1px solid black;
+            bottom: 30px;
+            height: 20px;
+            padding: 10px;
+            position: absolute;
+            left: 30px;
+            display: block;
+        }
+        /* Optional: Makes the sample page fill the window. */
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <div id="info-box"></div>
+    <script>
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 8,
+                center: {
+                    lat: 23.65911,
+                    lng: 120.83681
+                }
+            });
+
+            // Create a <script> tag and set the USGS URL as the source.
+            var script = document.createElement('script');
+
+            // This example uses a local copy of the GeoJSON stored at
+            // http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp
+            script.src = './locationdata.js';
+            document.getElementsByTagName('head')[0].appendChild(script);
+
+
+            // map.data.setStyle(function(feature) {
+            //   var magnitude = feature.getProperty('mount');
+            //   return {
+            //     icon: {
+            //         path: google.maps.SymbolPath.CIRCLE,
+            //         fillColor: 'red',
+            //         fillOpacity: .2,
+            //         scale: 100,
+            //         strokeColor: 'white',
+            //         strokeWeight: .5
+            //     }
+            //   }
+            // });
+
+            // map.addListener('mouseover', function(event) {
+            //     var mount = event.feature.getProperty('mount')
+            //     var location = event.feature.getProperty('location')
+            //     var time = event.feature.getProperty('time')
+            //     var toshow = "地點: " + location +" 時間: "+ time + " 撲殺數量: " + mount
+            //     document.getElementById('info-box').textContent = toshow
+            // });
+            // map.data.addListener('click', function(event) {
+            //     var mount = event.feature.getProperty('mount')
+            //     var location = event.feature.getProperty('location')
+            //     var time = event.feature.getProperty('time')
+            //     var toshow = "地點: " + location +" 時間: "+ time + " 撲殺數量: " + mount
+            //     document.getElementById('info-box').textContent = toshow
+            // });
+            
+        }
+
+        function getCircle(magnitude) {
+            return {
+                path: google.maps.SymbolPath.CIRCLE,
+                fillColor: 'red',
+                fillOpacity: .2,
+                scale: Math.log(magnitude),
+                strokeColor: 'white',
+                strokeWeight: .5
+            };
+        }
+
+        window.eqfeed_callback = function (results) {
+            for (var i = 0; i < results.features.length; i++) {
+                var coords = results.features[i].geometry.coordinates;
+                var latLng = new google.maps.LatLng(coords[1], coords[0]);
+                var marker = new google.maps.Circle({
+                    center: latLng,
+                    map: map,
+                    strokeColor: 'white',
+                    strokeWeight: .5,
+                    fillColor: 'red',
+                    fillOpacity: .2,
+                    radius: results.features[i].properties.mount/5
+                });
+                
+            }
+        }
+
+    </script>
+
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyClG1COBS6izq7X-_rTqMjp-N01GGNaMSA&callback=initMap"></script>
+</body>
+
+</html>

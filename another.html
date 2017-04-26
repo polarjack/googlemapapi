@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <title>跨領域資料應用</title>
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -34,7 +35,7 @@
     <script>
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 8,
+          zoom: 10,
           center: { lat: 23.65911, lng: 120.83681}
         });
 
@@ -56,15 +57,17 @@
         map.data.addListener('mouseover', function(event) {
             var mount = event.feature.getProperty('mount')
             var location = event.feature.getProperty('location')
+            var type = event.feature.getProperty('type')
             var time = event.feature.getProperty('time')
-            var toshow = "地點: " + location +" 時間: "+ time + " 撲殺數量: " + mount
+            var toshow = "地點: " + location +" 時間: "+ time + " 類型: " + type + " 撲殺數量: " + mount
             document.getElementById('info-box').textContent = toshow
         });
         map.data.addListener('click', function(event) {
             var mount = event.feature.getProperty('mount')
             var location = event.feature.getProperty('location')
+            var type = event.feature.getProperty('type')
             var time = event.feature.getProperty('time')
-            var toshow = "地點: " + location +" 時間: "+ time + " 撲殺數量: " + mount
+            var toshow = "地點: " + location +" 時間: "+ time + " 類型: " + type + " 撲殺數量: " + mount
             document.getElementById('info-box').textContent = toshow
         });
       }
@@ -74,7 +77,7 @@
           path: google.maps.SymbolPath.CIRCLE,
           fillColor: 'red',
           fillOpacity: .2,
-          scale: Math.log(magnitude),
+          scale: magnitude/500,
           strokeColor: 'white',
           strokeWeight: .5
         };
