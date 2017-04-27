@@ -1,6 +1,6 @@
 var kill = require('./kill.json')
 // var after = require('./onlyh5n6.json')
-var after = require('./noth5n6.json')
+var after = require('./h5n6.json')
 
 var fs = require('fs')
 function main() {
@@ -9,10 +9,10 @@ var otherdisese = kill.features.filter(i => i.disease != "H5N6")
 
 var towrite = {
     "title": "H5N6", 
-    "data": otherdisese
+    "data": maindisease
 }
 towrite = JSON.stringify(towrite)
-fs.writeFile("noth5n6" + '.json', towrite, 'utf8');
+fs.writeFile("h5n6" + '.json', towrite, 'utf8');
 }
 
 function second() {
@@ -48,5 +48,5 @@ function second() {
     })
     console.log(mount)
 }
+// main()
 second()
-

@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <title>Only H5N6</title>
+</head>
+
+<body>
+    <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <script src="http://code.highcharts.com/modules/exporting.js"></script>
+    <script>
+        function download() {
+            console.log("here")
+            var canvas = document.createElement('canvas');
+            canvas.width = svgSize.width;
+            canvas.height = svgSize.height;
+            var ctx = canvas.getContext('2d');
+
+            var img = document.createElement('img');
+            img.setAttribute('src', 'data:image/svg+xml;base64,' + btoa(unescape(encodeURIComponent(svgData))));
+            img.onload = function () {
+                ctx.drawImage(img, 0, 0);
+                window.open(canvas.toDataURL('image/png'));
+            };
+        }
+        Highcharts.chart('container', {
+            chart: {
+                type: 'column'
+            },
+            title: {
+                text: '撲殺量統計(H5N6)'
+            },
+            subtitle: {
+                text: '來源:106年高病原性禽流感確診及撲殺養禽場分布圖'
+            },
+            xAxis: {
+                categories: [
+                    "106.02.14",
+                    "106.02.15",
+                    "106.02.16",
+                    "106.02.17",
+                    "106.02.18",
+                    "106.02.19",
+                    "106.02.20",
+                    "106.02.21",
+                    "106.02.22",
+                    "106.02.23",
+                    "106.02.24",
+                    "106.02.25"
+                ],
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '數量 (隻)'
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                    '<td style="padding:0"><b>{point.y:.1f} 隻</b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                    name: 'H5N6',
+                    data: [
+                        2686,
+                        885,
+                        234,
+                        3540,
+                        610,
+                        7885,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        11115,
+
+                    ]
+
+                },
+                {
+                    name: 'Others',
+                    data: [
+                        0,
+                        0,
+                        0,
+                        0,
+                        25912,
+                        23052,
+                        28469,
+                        43914,
+                        12446,
+                        18952,
+                        21102,
+                        20519,
+
+                    ]
+
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>
